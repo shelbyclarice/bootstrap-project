@@ -1,0 +1,5 @@
+@media(min-width:768px) {
+    .example-class {
+        padding:20px;
+    }
+}
