@@ -1,5 +1,13 @@
-@media(min-width:768px) {
-    .example-class {
-        padding:20px;
+/* ghosts the nav to prevent image from cutting off on nav bg */
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+/* Reducing the size of email box by half on md screens and up */
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
     }
 }
