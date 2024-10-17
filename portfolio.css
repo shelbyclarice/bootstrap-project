@@ -1,0 +1,10 @@
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .about img {
+        width: 100%;
+        height: auto;
+    }
+}
